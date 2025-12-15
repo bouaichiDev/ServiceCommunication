@@ -14,8 +14,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className="antialiased">
+        <div className="demo-banner">
+          🚀 Version Démo – Données fictives uniquement
+        </div>
         <div className="flex min-h-screen">
           <Sidebar />
           <div className="flex-1 flex flex-col">
